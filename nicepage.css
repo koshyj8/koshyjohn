@@ -37925,33 +37925,30 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: 12px -36px 12px auto;
+  margin: 12px 0 20px;
 }
 
 .u-header .u-nav-1 {
   font-weight: 700;
   font-size: 1rem;
   text-transform: uppercase;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
   font-size: 1.25rem;
 }
-@media (max-width: 1199px) {
+
+@media (max-width: 991px) {
   .u-header .u-menu-1 {
     width: auto;
-    margin-right: -36px;
-  }
-
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
+    margin-top: 19px;
+    margin-bottom: 19px;
   }
 }
 
-
 @media (max-width: 575px) {
   .u-header .u-menu-1 {
-    margin-right: auto;
     margin-left: -131px;
   }
 }
